@@ -1,0 +1,42 @@
+input {
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 10px 0px 0px 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+}
+button:active {
+  background-color: #3f3f3f;
+}
+
+.arrow {
+  color: white;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/public/pattern-bg.png);
+  background-size: cover;
+  color: white;
+  padding: 0.5rem 0 9rem 0;
+  text-align: center;
+}
